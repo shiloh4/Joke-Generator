@@ -1,0 +1,55 @@
+
+/* You can edit the color of the buttons using hex codes. Google some colors and play around with them!
+    You may also change and play around with the shapes of the buttons as well as text styles or fonts.
+    Feel free to add any stylistic changes, and even change the joke website to one of your choice!
+     */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #1b1464;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    width: 450px;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 0.99rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: blue;
+}
+h1 {
+    font-size: 1.1rem;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+.new-joke-btn {
+    background-color: #ec008c;
+}
+
+.joke-text {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
